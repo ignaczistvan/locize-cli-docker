@@ -37,7 +37,7 @@ The entrypoint of the image is the cli so you only need to add ther parameters/a
 	version: '2.4'
 	services:
   		locize:
-	    	image: locize-cli:latest
+	    	image: neticle/locize-cli:latest
 	    	volumes:
 	      		- './src/main/resources/:/locize/'
 	    	user: '1000:1000'
